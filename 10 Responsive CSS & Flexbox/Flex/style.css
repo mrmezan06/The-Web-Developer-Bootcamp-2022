@@ -1,0 +1,58 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    background-color: #003049;
+    width: 90%;
+    /* height: 500px; */
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: flex-start; */
+    /* flex-wrap: wrap; */
+    /*align-content: space-between; without flex-wrap, it is not working */
+}
+
+#container div {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    /* max-width: 400px; */
+    flex-basis: 200px;
+    /* flex-grow: 1;  */
+    /* All div control at the same time */
+}
+
+div:nth-of-type(1) {
+    flex-grow: 1;
+    /* flex-shrink: 2; */
+}
+
+div:nth-of-type(5) {
+    flex-grow: 2;
+    /* flex-shrink: 2; */
+}
+
+
+/* Seperated control with div:nth-of-type(1)  1--> is nth div  */
+
+
+/* div:nth-of-type(2) {
+    align-self: center;
+    /* align-content: space-between; without it worked fine. */
+
+
+/*  }
+*/
+
+
+/* div:nth-of-type(4) {
+    align-self: center;
+} */
