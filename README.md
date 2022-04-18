@@ -8,6 +8,6 @@
         <img src="11 Pricing Panel Project\Mobile Environment.png" height="600px" width="400px">
         <br>
 * Section Bootstrap
-    * Main UI
+    * Main UI<br>
         <img src="BCS Question Bank\mainui.png" height="400px" width="600px">
         <br>
