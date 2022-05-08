@@ -1,0 +1,12 @@
+.container {
+    background-color: #1A3C40;
+    height: 24rem;
+}
+
+.card {
+    display: flex;
+    align-content: center;
+    margin-left: 40%;
+    background-color: #1D5C63;
+    height: 18rem;
+}
